@@ -86,17 +86,19 @@ def SelectDico(choix):
 
 def ReadQuestion(dico):
     score = 0
-    
+
     for question,reponse in dico.items():
-        print(question +"\n1 : " + reponse[0] +"`\n2 : " + reponse[1] + "\n3 : " + reponse[2]+ "\n")
-        answer = input()
-        if answer == str(reponse[3]):
-            print("Bonne réponse !")
-            score += 1
-        else :
-            print("Mauvaise réponse !")
+        answer = ""
+        while answer != "1" and answer != "2" and answer != "3" :
+            print(question +"\n1 : " + reponse[0] +"`\n2 : " + reponse[1] + "\n3 : " + reponse[2]+ "\n")
+            answer = input()
+            if answer == str(reponse[3]):
+                print("Bonne réponse !")
+                score += 1
+            else :
+                print("Mauvaise réponse !")
     print("Votre score est : ", score, "\n")
-    retry = input("Voulez-vous réessayer ?\n1 : Oui\n2 : Non")
+    retry = input("Voulez-vous réessayer ?\n1 : Oui\n2 : Non\n")
     if retry == "1":
         ChooseDifficulty
     else : 
