@@ -15,6 +15,16 @@ Ouvrir le fichier td1 decentralization.py
 
 Exécuter le code
 
+### Utilisation 
+
+Exécuter le code 
+
+Sélectionner le numéro associé à la difficulté voulue 
+
+Sélectionner le numéro associé à chaque réponse 
+
+Sélectionner le numéro associer en cas de nouvelle partie
+
 ## Auteur & contributeurs
 
 * **emeric99999** - *Travail initial* (https://github.com/emeric99999)
