@@ -23,7 +23,7 @@ Sélectionner le numéro associé à la difficulté voulue
 
 Sélectionner le numéro associé à chaque réponse 
 
-Sélectionner le numéro associer en cas de nouvelle partie
+Sélectionner le numéro associé en cas de nouvelle partie
 
 ## Auteur & contributeurs
 
